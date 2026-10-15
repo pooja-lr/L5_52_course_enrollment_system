@@ -28,6 +28,7 @@ COURSES = {
 
 TUITION_STATE = {"total": 0.0}
 
+
 def enroll_student(
     course_id,
     student_name,
@@ -35,8 +36,6 @@ def enroll_student(
     audit_trail=None,
 ):
     """Enroll a student and update tuition and the audit trail."""
-    
-
     if audit_trail is None:
         audit_trail = []
 
